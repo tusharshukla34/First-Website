@@ -92,7 +92,6 @@
   background-size: cover;
 }
 
-
 #firstpage .mainbox .box2 {
   display: flex;
   justify-content: center;
@@ -102,70 +101,62 @@
   color: white;
   left: 245px;
   height: 560px;
-    width: 560px;
-    gap: 40px;
-    padding-left: 50px;
+  width: 560px;
+  gap: 40px;
+  padding-left: 50px;
 }
 
 #firstpage img {
   padding-left: 146px;
-    height: 800px;
-    width: 1123px;
-    border-radius: 25px;
+  height: 800px;
+  width: 1123px;
+  border-radius: 25px;
 }
 
 #firstpage .mainbox {
   display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 800px;
-    position: relative;
-    top: 140px;
-    width: 100%;
-    
-    
-
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  position: relative;
+  top: 140px;
+  width: 100%;
 }
 
-#firstpage .mainbox .box2 .butt1{
-     border: 1px solid transparent;
-    border-radius: 23px;
-    padding: 12px;
-    background-color: #7B6ADA;
-    color: white;
-    text-transform: uppercase;
+#firstpage .mainbox .box2 .butt1 {
+  border: 1px solid transparent;
+  border-radius: 23px;
+  padding: 12px;
+  background-color: #7b6ada;
+  color: white;
+  text-transform: uppercase;
 }
-#firstpage .mainbox .box2 h1{
-font-size: 60px;
-    font-family: monospace;
+#firstpage .mainbox .box2 h1 {
+  font-size: 60px;
+  font-family: monospace;
 }
 
-#firstpage .mainbox .box2 p{
-font-family: monospace;
-    line-height: 1.5;
-  
-  }
+#firstpage .mainbox .box2 p {
+  font-family: monospace;
+  line-height: 1.5;
+}
 
-  #firstpage .mainbox .box2 .box3{
-    display: flex;
-    align-items: center;
-    gap: 35px;
-  }
+#firstpage .mainbox .box2 .box3 {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
 
-  #firstpage .mainbox .box2 .box3 .butt2{
-
-    border: 1px solid transparent;
-    border-radius: 25px;
-    padding: 13px 22px;
-    color: #2d11c7;
-  
-  }
-   #firstpage .mainbox .box2 .box3 i{
-
-    border: 1px solid transparent;
-    background-color: white;
-    border-radius: 26px;
-    padding: 12px 15px;
-    color: #7B6ADA;
-  
-   }
+#firstpage .mainbox .box2 .box3 .butt2 {
+  border: 1px solid transparent;
+  border-radius: 25px;
+  padding: 13px 22px;
+  color: #2d11c7;
+}
+#firstpage .mainbox .box2 .box3 i {
+  border: 1px solid transparent;
+  background-color: white;
+  border-radius: 26px;
+  padding: 12px 15px;
+  color: #7b6ada;
+}
