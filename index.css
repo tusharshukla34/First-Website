@@ -5,37 +5,44 @@
 }
 
 /* for trial only */
-/* body {
-  background-color: #7b6ada;
-} */
+html {
+  scroll-behavior: smooth;
+}
+
 /* trial ends here */
 
 /* Navbar style start from here */
 
-#head1 {
+#navbar {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   gap: 10px;
-  height: 120px;
-  position: absolute;
-  /* top: 20px; */
-  /* background-color: aqua; */
+  height: 80px;
+  position: fixed;
+  top: 0px;
+
+  left: 5px;
+  right: 5px;
+  border-radius: 0px 25px;
+  border-bottom: 1px solid transparent;
   padding: 0px 60px;
   width: 100%;
+  background-color: #7b6ada;
+  z-index: 100;
 }
 
-#head1 h1 {
+#navbar h1 {
   color: white;
   text-transform: uppercase;
 }
 
-#head1 .line1 {
+#navbar .line1 {
   border: 1px solid rgb(255 255 255 / 50%);
   height: 50px;
 }
 
-#head1 .but1 input {
+#navbar .but1 input {
   border: 1px solid transparent;
   border-radius: 23px;
   height: 45px;
@@ -49,47 +56,56 @@
   align-items: center;
 }
 
-#head1 .but1 input::placeholder {
+#navbar .but1 input::placeholder {
   color: white;
   font-size: 16px;
   opacity: 0.5;
 }
 
-#head1 .but1 i {
+#navbar .but1 i {
   position: absolute;
-  top: 53px;
+  top: 33px;
   left: 480px;
 }
-#head1 nav ul {
+#navbar nav ul {
   display: flex;
   gap: 40px;
   list-style: none;
 }
 
-#head1 nav ul li a {
+#navbar nav ul li a {
   color: white;
   text-decoration: none;
   font-size: 17px;
   text-transform: uppercase;
 }
 
-#head1 nav ul li a:hover {
+#navbar nav ul li a:hover {
   text-decoration: none;
   transition: background-color 0.3s;
   color: #cac3efce;
 }
 
-/* here i have to target all the hyperlink in future */
 /* Navbar style ends here */
 
-/* main first section page start fron here */
+/* main content first page start from here */
 
 #firstpage {
+  border: 1px solid transparent;
+  background-color: #7b6ada;
+  border-radius: 0px 0px 250px 0px;
   width: 100%;
-  height: 1041px;
-  background-image: url(./images/firstpageback.jpg);
-  background-position: right bottom;
-  background-size: cover;
+  height: 1100px;
+}
+
+#firstpage .mainbox {
+  border: 1px solid transparent;
+  margin-top: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 956px;
+  width: 100%;
 }
 
 #firstpage .mainbox .box2 {
@@ -99,7 +115,7 @@
   flex-direction: column;
   position: absolute;
   color: white;
-  left: 245px;
+  left: 260px;
   height: 560px;
   width: 560px;
   gap: 40px;
@@ -107,20 +123,11 @@
 }
 
 #firstpage img {
-  padding-left: 146px;
-  height: 800px;
-  width: 1123px;
-  border-radius: 25px;
-}
-
-#firstpage .mainbox {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 800px;
-  position: relative;
-  top: 140px;
-  width: 100%;
+  padding-left: 0px;
+  height: 795px;
+  width: 935px;
+  border-radius: 42px;
+  margin-left: 180px;
 }
 
 #firstpage .mainbox .box2 .butt1 {
@@ -160,3 +167,7 @@
   padding: 12px 15px;
   color: #7b6ada;
 }
+
+/* main content first page ends here */
+
+
