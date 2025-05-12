@@ -92,7 +92,7 @@ html {
 
 #firstpage {
   border: 1px solid transparent;
-  background-color: #7b6ada;
+  background-image: url(./images/firstpageback.jpg);
   border-radius: 0px 0px 250px 0px;
   width: 100%;
   height: 1100px;
@@ -170,4 +170,6 @@ html {
 
 /* main content first page ends here */
 
+
+/* Secion second page strats here */
 
