@@ -4,12 +4,9 @@
   box-sizing: border-box;
 }
 
-/* for trial only */
 html {
   scroll-behavior: smooth;
 }
-
-/* trial ends here */
 
 
 /* ===================== Navbar style start from here ===================== */
@@ -46,7 +43,7 @@ html {
 #navbar .but1 {
     display: flex;
     align-items: center;
-    position: relative; /* For positioning the icon */
+    position: relative; 
 }
 
 
@@ -318,9 +315,9 @@ html {
 
 #thirdpage .thirdcon1 {
     border: 1px solid transparent;
-    width: 80%; /* Make it wider on larger screens */
-    max-width: 600px; /* Limit maximum width */
-    height: 70vh; /* Adjust height */
+    width: 80%; 
+    max-width: 600px; 
+    height: 70vh; 
     padding: 85px;
     display: flex;
     justify-content: center;
@@ -348,9 +345,9 @@ html {
 #thirdpage .thirdcon2 {
     
     border: 1px solid rgb(217, 166, 99);
-    width: 80%; /* Make it wider on larger screens */
-    max-width: 700px; /* Limit maximum width */
-    height: 80vh; /* Adjust height */
+    width: 80%; 
+    max-width: 700px; 
+    height: 80vh; 
     padding: 85px;
     display: flex;
     justify-content: center;
