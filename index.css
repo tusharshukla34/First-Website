@@ -463,7 +463,7 @@ html {
   display: grid;
   gap: 50px;
   grid-template-columns: auto auto auto;
-      margin-top: 44px;
+  margin-top: 44px;
 }
 
 #fourthpage .fourthcon .coursegrid .imgbox {
@@ -474,66 +474,57 @@ html {
   overflow: hidden;
   border-radius: 35px;
   position: relative;
-    z-index: 10;
+  z-index: 10;
 }
 
-
-
-#fourthpage .fourthcon .coursegrid .imgbox:hover h3{
-
-  color: #7a6ad8; 
-  transform: scale(1.04); 
+#fourthpage .fourthcon .coursegrid .imgbox:hover h3 {
+  color: #7a6ad8;
+  transform: scale(1.04);
   transition: color 0.3s ease-in-out;
-  
 }
 
 #fourthpage .fourthcon .coursegrid .imgbox:hover .focircle {
-transition: all 0.3s;
-transform: scale(1.2);
+  transition: all 0.3s;
+  transform: scale(1.2);
 }
 
-
-#fourthpage .fourthcon .coursegrid .imgbox .fotext{
-      border: 1px solid transparent;
-    height: 20px;
-    padding: 18px;
-    width: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    position: absolute;
-    top: 19px;
-    left: 26px;
-    background-color: #f1f0fe;
+#fourthpage .fourthcon .coursegrid .imgbox .fotext {
+  border: 1px solid transparent;
+  height: 20px;
+  padding: 18px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  position: absolute;
+  top: 19px;
+  left: 26px;
+  background-color: #f1f0fe;
 }
 
-
-#fourthpage .fourthcon .coursegrid .imgbox .focircle{
-
+#fourthpage .fourthcon .coursegrid .imgbox .focircle {
   height: 130px;
   width: 130px;
   border: 1px solid transparent;
   background-color: #7a6ad8;
   position: absolute;
   border-radius: 50%;
-    top: -48px;
-    left: 251px;
-    opacity: 0.9;
-    justify-content: center;
-    align-items: center;
-    display: flex
+  top: -48px;
+  left: 251px;
+  opacity: 0.9;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
-#fourthpage .fourthcon .coursegrid .imgbox .focircle .price{
+#fourthpage .fourthcon .coursegrid .imgbox .focircle .price {
   color: white;
-    font-size: 33px;
-    font-weight: bold;
-    padding-top: 37px;
-    margin-left: -35px;
+  font-size: 33px;
+  font-weight: bold;
+  padding-top: 37px;
+  margin-left: -35px;
 }
-
-
 
 #fourthpage .fourthcon .coursegrid .imgbox img {
   width: 28vw;
@@ -562,47 +553,13 @@ transform: scale(1.2);
 
 /* ===================== Section fourth page ends here ===================== */
 
-
-
-
-
 /* ===================== Section fiveth page strats here ===================== */
-
 
 #fivethpage {
   width: 100%;
   height: 100vh;
   background-color: #a6e3b3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ========== Starting of media query from here to make webpage responsive ========== */
 
