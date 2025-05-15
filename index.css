@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   overflow-x: hidden;
 }
 
@@ -717,26 +717,25 @@ html {
 #seventhpage {
   width: 100%;
   height: 100vh;
-  background-color: rgb(157, 234, 236);
   position: relative;
 }
 
 #seventhpage .sevenmain1 {
   position: absolute;
-    top: 110px;
-    width: 70%;
-    height: 83vh;
-    background-color: #5f57c9;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    border: 1px solid transparent;
-    border-radius: 0px 4193px 4193px 0px;
-    flex-direction: column;
-    gap: 20px;
+  top: 110px;
+  width: 70%;
+  height: 83vh;
+  background-color: #f1f0fe;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border: 1px solid transparent;
+  border-radius: 0px 4193px 4193px 0px;
+  flex-direction: column;
+  gap: 20px;
 }
 
-#seventhpage .sevenmain1 .maincon{
+#seventhpage .sevenmain1 .maincon {
   margin-left: 70px;
   display: flex;
   width: auto;
@@ -747,101 +746,70 @@ html {
   gap: 90px;
 }
 
-
-#seventhpage .sevenmain1 .maincon div{
-font-family: monospace;
-    font-size: 19px;
-    color: #7a6ad8;
+#seventhpage .sevenmain1 .maincon div {
+  font-family: monospace;
+  font-size: 19px;
+  color: #7a6ad8;
 }
 
-#seventhpage .sevenmain1 .maincon h1{
-font-size: 43px;
-font-family: sans-serif;
-margin-top: -56px;
+#seventhpage .sevenmain1 .maincon h1 {
+  font-size: 43px;
+  font-family: sans-serif;
+  margin-top: -56px;
 }
 
-#seventhpage .sevenmain1 .maincon p{
-font-family: monospace;
-    font-size: 15px;
-    line-height: 1.7;
+#seventhpage .sevenmain1 .maincon p {
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.7;
 }
 
-
-#seventhpage .sevenmain2{
-  position: absolute;
-  right: 0px;
-  top: 150px;
-  width: 50%;
-  height: 70vh;
-  background-color: antiquewhite;
+#seventhpage .contactform {
+  padding: 43px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 480px;
+  top: 140px;
+  left: 666px;
+  height: 490px;
+  background-image: url(./images/firstpageback.jpg);
 }
 
-#seventhpage .sevenmain2 form{
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-  gap: 50px;
-  background-color: #9f2f2f;
-  margin-left: 80px;
-}
-
-
-#seventhpage .sevenmain2 {
-  background-color: #f4f4f4; /* Light gray background for the container */
-  padding: 20px;
-  border-radius: 8px; /* Slightly rounded corners */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  width: 400px; /* Example width, adjust as needed */
-  margin: 20px auto; /* Center the container horizontally with some top/bottom margin */
-}
-
-.contactform {
-    padding: 43px;
-    border-radius: 20px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    width: 480px;
-    top: 140px;
-    left: 666px;
-    height: 490px;
-    background-image: url(./images/firstpageback.jpg);
-}
-
-.formcontainer {
+#seventhpage .contactform .formcontainer {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.input {
+#seventhpage .contactform .formcontainer .input {
   margin-bottom: 25px;
 }
 
-.input input[type="text"],
+#seventhpage .contactform .formcontainer .input input[type="text"],
 .input input[type="email"],
 .input textarea {
   width: 100%;
   padding: 15px 20px;
   border: none;
   border-radius: 15px;
-  background-color: rgba(255, 255, 255, 0.3); /* Slightly more opaque white for input background */
+  background-color: rgba(255, 255, 255, 0.3);
   color: white;
   font-size: 16px;
-  box-sizing: border-box; /* Ensure padding doesn't affect width */
+  box-sizing: border-box;
 }
 
-.input input::placeholder,
+#seventhpage .contactform .formcontainer .input input::placeholder,
 .input textarea::placeholder {
-  color: rgba(255, 255, 255, 0.7); /* Lighter color for placeholders */
+  color: rgba(255, 255, 255, 0.7);
 }
 
-.input input:focus,
+#seventhpage .contactform .formcontainer.input input:focus,
 .input textarea:focus {
   outline: none;
-  background-color: rgba(255, 255, 255, 0.5); /* Slightly more opaque on focus */
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
-.formcontainer button {
+#seventhpage .contactform .formcontainer button {
   background-color: white;
   color: #8e7cc3;
   padding: 15px 30px;
@@ -852,17 +820,35 @@ font-family: monospace;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.formcontainer button:hover {
+#seventhpage .contactform .formcontainer button:hover {
   background-color: #8e7cc3;
   color: white;
 }
 
-
-
-.contactform {
-  position: relative; /* Needed for absolute positioning of pseudo-elements */
-  overflow: hidden; /* Clip the blur effect if it goes too far */
+#seventhpage .contactform {
+  position: relative;
+  overflow: hidden;
 }
+
+/* ===================== Section seventh page ends here ===================== */
+
+/* ============================= Footer strats here ============================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
