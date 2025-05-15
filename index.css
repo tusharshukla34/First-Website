@@ -405,12 +405,104 @@ html {
   background-color: #a6e3b3;
 }
 
+#fourthpage .fourthcon {
+  height: auto;
+  width: auto;
+  background-color: rgb(226, 123, 214);
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  top: 0;
+  /* padding: 99px; */
+}
 
+#fourthpage .fourthcon .fotext {
+  color: #7a6ad8;
+  font-size: 18px;
+  font-family: monospace;
+  text-transform: uppercase;
+}
 
+#fourthpage .fourthcon h1 {
+  font-size: 43px;
+  font-family: monospace;
+}
 
+#fourthpage .fourthcon .coursebar {
+  /* width: auto;
+  height: auto; */
+  background-color: #f1f0fe;
+  border: 1px solid transparent;
+  width: 633px;
+  height: 64px;
+  border-radius: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
 
+#fourthpage .fourthcon .coursebar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  font-weight: bold;
+}
 
+#fourthpage .fourthcon .coursebar ul li {
+  font-family: monospace;
+  font-size: 18px;
+  list-style: none;
+}
 
+#fourthpage .fourthcon .coursegrid {
+  height: auto;
+  width: auto;
+  background-color: #1f552b;
+  display: grid;
+  gap: 50px;
+  grid-template-columns: auto auto auto;
+}
+
+#fourthpage .fourthcon .coursegrid .imgbox {
+  height: 327px;
+  width: 342px;
+  background-color: orange;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+#fourthpage .fourthcon .coursegrid .imgbox img {
+  width: 28vw;
+  height: 231px;
+}
+
+#fourthpage .fourthcon .coursegrid .imgbox .imgtext {
+  background-color: aquamarine;
+  height: auto;
+  padding-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+}
+
+#fourthpage {
+}
+
+#fourthpage {
+}
+
+#fourthpage {
+}
+
+#fourthpage {
+}
 
 /* ========== Starting of media query from here to make webpage responsive ========== */
 
