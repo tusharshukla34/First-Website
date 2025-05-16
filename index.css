@@ -957,16 +957,25 @@ html {
         height: 455px;
   }
 
+
+  /* #secondpage .page2 .page2con div{
+    margin-left: 0px;
+  } */
+
   #secondpage .page2 .page2con {
-           display: grid
+
+        display: flex
 ;
-        /* justify-content: center; */
+        justify-content: flex-start;
         /* align-items: center; */
         /* gap: 110px; */
         width: 100vw;
         grid-template-columns: auto auto;
         height: 100vh;
         background-color: gray;
+        overflow: scroll;
+        scroll-behavior: smooth;
+        height: 50vh;
   }
 
 #secondpage .page2 .pagebox{
