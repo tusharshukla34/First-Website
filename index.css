@@ -1019,7 +1019,6 @@ html {
         align-items: center;
         /* gap: 39px; */
         margin-top: -560px;
-        background-color: bisque;
 }
 
 #thirdpage .thirdcon1 {
@@ -1044,7 +1043,7 @@ html {
         height: 53vh;
         display: flex
 ;
-        background-color: green;
+
 }
 
 #thirdpage .thirdcon1 .textbox {
