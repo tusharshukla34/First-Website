@@ -1238,154 +1238,144 @@ html {
     font-size: 15px;
   }
 
-
-
-
   /* fiveth page  */
 
-
   #fivethpage {
-  width: 100%;
-  height: 100vh;
-  position: relative;
-}
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
 
-#fivethpage .fivemain {
-  width: 57%;
-        height: 66vh;
-        top: 0px;
-        display: flex;
-        justify-content: center;
-}
+  #fivethpage .fivemain {
+    width: 57%;
+    height: 66vh;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+  }
 
-#fivethpage .fivecon {
-  position: absolute;
-        width: 109%;
-        height: auto;
-        display: flex
-;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-        top: 47px;
-        flex-direction: column;
-}
+  #fivethpage .fivecon {
+    position: absolute;
+    width: 109%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    top: 47px;
+    flex-direction: column;
+  }
 
-#fivethpage .fivecon .fivenum {
-  color: white;
-  font-family: monospace;
-  font-size: 30px;
-  width: auto;
-  font-weight: bold;
-}
+  #fivethpage .fivecon .fivenum {
+    color: white;
+    font-family: monospace;
+    font-size: 30px;
+    width: auto;
+    font-weight: bold;
+  }
 
-#fivethpage .fivecon .fivetext {
-  color: white;
-  font-family: monospace;
-  font-size: 11px;
-}
+  #fivethpage .fivecon .fivetext {
+    color: white;
+    font-family: monospace;
+    font-size: 11px;
+  }
 
-#fivethpage .fivecon div {
-  width: auto;
-  height: 100px;
-}
+  #fivethpage .fivecon div {
+    width: auto;
+    height: 100px;
+  }
 
+  /* sixth page */
 
+  #sixthpage {
+    background-color: #2d11c7;
+  }
 
-/* sixth page */
+  #sixthpage .sixmain {
+    position: absolute;
+    top: 93px;
+    left: 102px;
+    width: 70%;
+    height: 71vh;
+  }
 
+  #sixthpage .sixmain .sixcon1 {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    flex-direction: column;
+    position: absolute;
+    left: 130px;
+  }
 
-#sixthpage {
-  background-color: #2d11c7;
-}
+  #sixthpage .sixmain .sixcon1 div {
+    color: #7a6ad8;
+  }
 
-#sixthpage .sixmain {
-  position: absolute;
-        top: 93px;
-        left: 102px;
-        width: 70%;
-        height: 71vh;
-}
+  #sixthpage .sixmain .sixcon1 h1 {
+    font-size: 18px;
+  }
 
-#sixthpage .sixmain .sixcon1 {
-  width: 50%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 50px;
-  flex-direction: column;
-  position: absolute;
-  left: 130px;
-}
+  #sixthpage .sixmain .sixcon1 p {
+    font-family: monospace;
+    font-size: 13px;
+    line-height: 1.4;
+  }
 
-#sixthpage .sixmain .sixcon1 div {
-  color: #7a6ad8;
-}
+  #sixthpage .sixmain .sixcon2 {
+    position: absolute;
+    width: 229px;
+    height: 359px;
+    background-color: #7a6ad8;
+    left: -129px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 70px;
+    padding: 50px;
+    border-radius: 30px;
+  }
 
-#sixthpage .sixmain .sixcon1 h1 {
-  font-size: 18px;
-}
+  #sixthpage .sixmain .sixcon2 p {
+    font-family: monospace;
+    font-size: 11px;
+    color: white;
+    line-height: 1.4;
+  }
 
-#sixthpage .sixmain .sixcon1 p {
-  font-family: monospace;
-        font-size: 13px;
-        line-height: 1.4;
-}
+  #sixthpage .sixmain .sixcon2 .sixnamecon {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
 
-#sixthpage .sixmain .sixcon2 {
-  position: absolute;
-        width: 229px;
-        height: 359px;
-        background-color: #7a6ad8;
-        left: -129px;
-        display: flex
-;
-        justify-content: center;
-        align-items: flex-start;
-        flex-direction: column;
-        gap: 70px;
-        padding: 50px;
-        border-radius: 30px;
-}
+  #sixthpage .sixmain .sixcon2 .sixcon2img img {
+    border: 1px solid transparent;
+    border-radius: 59px;
+    width: 90px;
+    height: 90px;
+  }
 
-#sixthpage .sixmain .sixcon2 p {
-  font-family: monospace;
-  font-size: 11px;
-  color: white;
-  line-height: 1.4;
-}
+  #sixthpage .sixmain .sixcon2 .sixnamecon .position {
+    color: white;
+    font-size: 20px;
+  }
 
-#sixthpage .sixmain .sixcon2 .sixnamecon {
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
+  #sixthpage .sixmain .sixcon2 .sixnamecon .name {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
 
-#sixthpage .sixmain .sixcon2 .sixcon2img img {
-  border: 1px solid transparent;
-  border-radius: 59px;
-  width: 90px;
-  height: 90px;
-}
-
-#sixthpage .sixmain .sixcon2 .sixnamecon .position {
-  color: white;
-  font-size: 20px;
-}
-
-#sixthpage .sixmain .sixcon2 .sixnamecon .name {
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-}
-
-#sixthpage .sixmain .sixcon2img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
-
+  #sixthpage .sixmain .sixcon2img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
 }
