@@ -1007,28 +1007,95 @@ html {
    display: none;
   }
 
-  #thirdpage .thirdcon2 img {
-    margin-top: 232px;
-  }
-
   /* third page start */
 
-  #thirdpage {
-    margin-top: 287px;
-    width: 275vw;
-    height: auto;
-  }
+ #thirdpage {
+  width: 100%;
+        min-height: 100vh;
+        padding: 0px 0px;
+        display: flex
+;
+        justify-content: center;
+        align-items: center;
+        /* gap: 39px; */
+        margin-top: -560px;
+        background-color: bisque;
+}
 
-  #thirdpage .thirdcon {
-    width: auto;
-    height: auto;
-  }
-  #thirdpage .thirdcon1 {
-    height: auto;
-  }
+#thirdpage .thirdcon1 {
+          border: 1px solid transparent;
+        width: 341px;
+        /* max-width: 630px; */
+        height: 413px;
+        padding: 47px;
+        display: flex
+;
+        justify-content: center;
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+        background-color: #7a6ad8;
+        border-radius: 134px 50px 50px 134px;
+        margin-left: -27px;
+}
 
-  #thirdpage .thirdcon1 .textbox {
-    font-size: 1.2em;
-    width: 288px;
-  }
+#thirdpage .thirdcon {
+          width: 100vw;
+        height: 53vh;
+        display: flex
+;
+        background-color: green;
+}
+
+#thirdpage .thirdcon1 .textbox {
+         border: 1px solid transparent;
+        padding: 7px;
+        font-size: 12px;
+        font-family: monospace;
+        background-color: #fff;
+        border-radius: 40px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        display: flex
+;
+        justify-content: space-between;
+        align-items: center;
+        /* font-weight: bold; */
+        width: 259px;
+}
+
+#thirdpage .thirdcon2 {
+  border: 1px solid transparent;
+  width: 80%;
+  max-width: 700px;
+  height: 80vh;
+  padding: 85px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 35px;
+  text-align: center;
+
+  /* #f1f0fe */
+}
+
+#thirdpage .thirdcon1 .textbox .plusicon {
+  height: 30px;
+  width: 30px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background-color: #7a6ad8;
+  color: white;
+  font-size: 0.8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#thirdpage .thirdcon2 img {
+         height: 311px;
+        border-radius: 60px;
+        margin-left: -223px;
+        width: 242px;
+        margin-top: 279px;
+}
 }
