@@ -971,7 +971,6 @@ html {
         width: 100vw;
         grid-template-columns: auto auto;
         height: 100vh;
-        background-color: gray;
         overflow: scroll;
         scroll-behavior: smooth;
         height: 60vh;
@@ -1018,7 +1017,7 @@ html {
         justify-content: center;
         align-items: center;
         /* gap: 39px; */
-        margin-top: -560px;
+        margin-top: -350px;
 }
 
 #thirdpage .thirdcon1 {
