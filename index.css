@@ -904,7 +904,6 @@ html {
 
 #firstpage .mainbox{
   width: 100vw;
-        background-color: black;
         margin-top: -31px
 }
 
@@ -1092,7 +1091,7 @@ html {
 #thirdpage .thirdcon2 img {
          height: 311px;
         border-radius: 60px;
-        margin-left: -223px;
+        margin-left: -320px;
         width: 242px;
         margin-top: 400px;
 }
