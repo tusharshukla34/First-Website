@@ -997,20 +997,14 @@ html {
 
 
   #secondpage .page2 .circle1 {
-    height: 160px;
-    top: 1052px;
-    width: 160px;
+    display: none;
   }
 
   #secondpage .page2 .circle2 {
-    height: 160px;
-    top: 1052px;
-    width: 160px;
+    display: none;
   }
   #secondpage .page2 .circle3 {
-    height: 160px;
-    top: 1052px;
-    width: 160px;
+   display: none;
   }
 
   #thirdpage .thirdcon2 img {
