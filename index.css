@@ -951,20 +951,43 @@ html {
 }
 
   #firstpage img {
-    margin-top: -100px;
+    margin-top: -79px;
         width: 88vw;
-        margin-right: 138px;
+        margin-right: 189px;
         height: 455px;
   }
 
   #secondpage .page2 .page2con {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 110px;
-    width: 120%;
-    height: 100vh;
+           display: grid
+;
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* gap: 110px; */
+        width: 100vw;
+        grid-template-columns: auto auto;
+        height: 100vh;
+        background-color: gray;
   }
+
+#secondpage .page2 .pagebox{
+  width: 231px;
+        height: 274px;
+        margin-top: 117px;
+        border: 1px solid transparent;
+        box-shadow: -9px 7px 18px -2px #000000cf;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+        padding-top: 52px;
+        background-color: #f1f0fe;
+        border-radius: 25px;
+}
+
+
+
+
   #secondpage .page2 .circle1 {
     height: 160px;
     top: 1052px;
