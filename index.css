@@ -1091,8 +1091,167 @@ html {
 #thirdpage .thirdcon2 img {
          height: 311px;
         border-radius: 60px;
-        margin-left: -320px;
+        margin-left: -300px;
         width: 242px;
         margin-top: 400px;
+}
+
+
+
+
+
+
+/* fouth page from here */
+
+#fourthpage {
+  width: 100%;
+  min-height: 100vh;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#fourthpage .fourthcon {
+  height: auto;
+  width: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  top: 0;
+  /* padding: 99px; */
+}
+
+#fourthpage .fourthcon .fotext {
+  color: #7a6ad8;
+  font-size: 18px;
+  font-family: monospace;
+  text-transform: uppercase;
+}
+
+#fourthpage .fourthcon h1 {
+  font-size: 43px;
+  font-family: monospace;
+}
+
+#fourthpage .fourthcon .coursebar {
+         /* background-color: #f1f0fe; */
+        /* border: 1px solid transparent; */
+       width: 315px;
+        height: 74px;
+        /* font-size: 18px; */
+        /* border-radius: 45px; */
+        /* display: flex
+; */
+        /* justify-content: center; */
+        flex-wrap: wrap wrap;
+        /* align-items: center; */
+        margin-top: 3px;
+}
+
+#fourthpage .fourthcon .coursebar ul {
+display: flex
+;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+        flex-wrap: wrap;
+}
+
+#fourthpage .fourthcon .coursebar ul li {
+  font-family: monospace;
+  font-size: 14px;
+  text-decoration: none;
+  list-style: none;
+}
+
+#fourthpage .fourthcon .coursegrid {
+  height: auto;
+  width: auto;
+  display: grid;
+  gap: 50px;
+  grid-template-columns: auto;
+  margin-top: 44px;
+}
+
+#fourthpage .fourthcon .coursegrid .imgbox {
+  height: 251px;
+    width: 275px;
+    /* background-color: #f1f0fe;
+    border: 1px solid transparent;
+    overflow: hidden;
+    border-radius: 35px;
+    position: relative;
+    z-index: 10; */
+}
+
+#fourthpage .fourthcon .coursegrid .imgbox:hover h3 {
+  color: #7a6ad8;
+  transform: scale(1.04);
+  transition: color 0.3s ease-in-out;
+}
+
+#fourthpage .fourthcon .coursegrid .imgbox:hover .focircle {
+  transition: all 0.3s;
+  transform: scale(1.2);
+}
+
+#fourthpage .fourthcon .coursegrid .imgbox .fotext {
+  border: 1px solid transparent;
+        height: 27px;
+        padding: 5px;
+        /* width: auto; */
+        /* display: flex
+; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* border-radius: 20px; */
+        /* position: absolute; */
+        /* top: 19px; */
+        /* left: 26px; */
+        /* background-color: #f1f0fe; */
+        font-size: 10px;
+}
+
+#fourthpage .fourthcon .coursegrid .imgbox .focircle {
+          left: 195px;
+        top: -60px;
+}
+
+#fourthpage .fourthcon .coursegrid .imgbox .focircle .price {
+  color: white;
+        font-size: 27px;
+        font-weight: bold;
+        padding-top: 51px;
+        margin-left: -35px;
+}
+
+#fourthpage .fourthcon .coursegrid .imgbox img {
+        width: 64vw;
+        height: 173px;
+        border-radius: 25px;
+}
+
+#fourthpage .fourthcon .coursegrid .imgbox .imgtext {
+  /* background-color: aquamarine; */
+  height: auto;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#fourthpage .fourthcon .coursegrid .imgbox .imgtext .fotext2 {
+  color: #8879de;
+  font-size: 10px;
+}
+
+#fourthpage .fourthcon .coursegrid .imgbox .imgtext h3 {
+  font-size: 15px;
 }
 }
