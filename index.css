@@ -1237,4 +1237,57 @@ html {
   #fourthpage .fourthcon .coursegrid .imgbox .imgtext h3 {
     font-size: 15px;
   }
+
+
+
+
+  /* fiveth page  */
+
+
+  #fivethpage {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+#fivethpage .fivemain {
+  width: 57%;
+        height: 55vh;
+        top: 0px;
+        display: flex;
+        justify-content: center;
+}
+
+#fivethpage .fivecon {
+  position: absolute;
+        width: 109%;
+        height: auto;
+        display: flex
+;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        top: 47px;
+        flex-direction: column;
+}
+
+#fivethpage .fivecon .fivenum {
+  color: white;
+  font-family: monospace;
+  font-size: 30px;
+  width: auto;
+  font-weight: bold;
+}
+
+#fivethpage .fivecon .fivetext {
+  color: white;
+  font-family: monospace;
+  font-size: 11px;
+}
+
+#fivethpage .fivecon div {
+  width: auto;
+  height: 100px;
+}
+
 }
