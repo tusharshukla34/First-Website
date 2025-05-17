@@ -926,14 +926,19 @@ html {
         justify-content: center;
         align-items: center;
         gap: 25px;
-        width: 84vw;
+        width: 95vw;
         height: 213px;
         position: absolute;
-        left: 12px;
+        left: 10px;
         top: 70px;
-        background-color: #E91E63;
+        background-color: white;
         /* padding-left: 476px; */
-         /* padding-top: 20px; */
+        /* padding-top: 20px; */
+        /* color: black; */
+  }
+
+  #check:checked ~ #navbar nav ul li a{
+    color: black;
   }
 }
 
