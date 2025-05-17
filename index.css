@@ -1331,7 +1331,7 @@ html {
   #sixthpage .sixmain {
     position: absolute;
     top: 93px;
-    left: 102px;
+    left: 104px;
     width: 70%;
     height: 71vh;
   }
@@ -1363,18 +1363,20 @@ html {
   }
 
   #sixthpage .sixmain .sixcon2 {
-    position: absolute;
-    width: 229px;
-    height: 359px;
-    background-color: #7a6ad8;
-    left: -129px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 70px;
-    padding: 50px;
-    border-radius: 30px;
+            /* position: absolute; */
+        width: 380px;
+        height: 302px;
+        /* background-color: #7a6ad8; */
+        left: -127px;
+        /* display: flex
+; */
+        /* justify-content: center; */
+        /* align-items: flex-start; */
+        /* flex-direction: column; */
+        /* gap: 70px; */
+        /* padding: 50px; */
+        border-radius: 0px 130px 130px 0px;
+        top: 592px;
   }
 
   #sixthpage .sixmain .sixcon2 p {
