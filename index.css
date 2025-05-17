@@ -1342,7 +1342,7 @@ html {
   #sixthpage .sixmain {
             /* position: absolute; */
         /* top: 93px; */
-        left: 130px;
+        left: 129px;
         /* width: 70%; */
         /* height: 85vh; */
   }
@@ -1523,5 +1523,44 @@ html {
         font-size: 12px;
         transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+
+
+
+
+
+
+/* last footer */
+
+
+#footerpage{
+  position: relative;
+}
+
+
+#footerpage .foot{
+          width: 100%;
+        height: 150px;
+        /* background-color: #7b6ada; */
+        /* display: flex
+; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* background-image: url(./images/firstpageback.jpg); */
+        /* border-radius: 290px 290px 0px 0px; */
+        margin-top: 75px;
+        position: absolute;
+        top: 0px;
+}
+
+#footerpage .foot p{
+  color: white;
+}
+
+
+
+
+
+
 
 }
