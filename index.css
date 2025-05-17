@@ -1129,11 +1129,11 @@ html {
   }
 
   #thirdpage .thirdcon2 img {
-    height: 311px;
-    border-radius: 60px;
-    margin-left: -300px;
-    width: 242px;
-    margin-top: 400px;
+            height: 311px;
+        border-radius: 60px;
+        margin-left: -160px;
+        width: 242px;
+        margin-top: 334px;
   }
 
   /* fouth page from here */
@@ -1338,9 +1338,6 @@ html {
 
   /* sixth page */
 
-  #sixthpage {
-    background-color: #2d11c7;
-  }
 
   #sixthpage .sixmain {
     position: absolute;
@@ -1444,7 +1441,6 @@ html {
           width: 100%;
                       height: 200vh;
         position: relative;
-        background-color: aquamarine;
 }
 
 #seventhpage .sevenmain1 {
@@ -1500,7 +1496,7 @@ html {
         /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); */
         width: 369px;
         top: 898px;
-        left: 12px;
+        left: 30px;
         height: 440px;
          /* background-image: url(./images/firstpageback.jpg); */
 }
