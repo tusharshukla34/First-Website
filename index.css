@@ -1433,18 +1433,19 @@ html {
 }
 
 #seventhpage .sevenmain1 {
-  position: absolute;
-  top: 110px;
-  width: 70%;
-  height: 83vh;
-  background-color: #f1f0fe;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  border: 1px solid transparent;
-  border-radius: 0px 4193px 4193px 0px;
-  flex-direction: column;
-  gap: 20px;
+          /* position: absolute; */
+        top: 217px;
+        width: 60%;
+        height: 50vh;
+        /* background-color: #f1f0fe; */
+        /* display: flex
+; */
+        /* justify-content: center; */
+        /* align-items: flex-start; */
+        /* border: 1px solid transparent; */
+        /* border-radius: 0px 4193px 4193px 0px; */
+        /* flex-direction: column;git  */
+        /* gap: -2p */
 }
 
 #seventhpage .sevenmain1 .maincon {
