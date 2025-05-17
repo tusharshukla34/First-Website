@@ -397,7 +397,6 @@ html {
 }
 /* ===================== Section third page end here ===================== */
 
-
 /* ===================== Section fourth page strats here ===================== */
 
 #fourthpage {
@@ -434,7 +433,6 @@ html {
 }
 
 #fourthpage .fourthcon .coursebar {
-
   background-color: #f1f0fe;
   border: 1px solid transparent;
   width: 633px;
@@ -831,7 +829,7 @@ html {
 
 /* ============================= Footer strats here ============================== */
 
-#footerpage .foot{
+#footerpage .foot {
   width: 100%;
   height: 150px;
   background-color: #7b6ada;
@@ -843,29 +841,11 @@ html {
   margin-top: 200px;
 }
 
-#footerpage .foot p{
+#footerpage .foot p {
   color: white;
 }
 
 /* ============================= Footer ends here ============================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ========== Starting of media query from here to make webpage responsive ========== */
 
@@ -880,9 +860,9 @@ html {
     left: 354px;
   }
 
-  #bars i{
+  #bars i {
     font-size: 24px;
-        color: white;
+    color: white;
   }
 
   #navbar {
@@ -916,30 +896,28 @@ html {
   }
 
   #check:checked ~ #navbar nav ul {
-            display: flex
-;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 25px;
-        width: 95vw;
-        height: 213px;
-        position: absolute;
-        left: 10px;
-        top: 70px;
-        background-color: white;
-        /* padding-left: 476px; */
-        /* padding-top: 20px; */
-        /* color: black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 95vw;
+    height: 213px;
+    position: absolute;
+    left: 10px;
+    top: 70px;
+    background-color: white;
+    /* padding-left: 476px; */
+    /* padding-top: 20px; */
+    /* color: black; */
   }
 
-  #check:checked ~ #navbar nav ul li a{
+  #check:checked ~ #navbar nav ul li a {
     color: black;
   }
 }
 
 /* ================================ First page ===================================== */
-
 
 @media (max-width: 430px) {
   #firstpage {
@@ -955,11 +933,11 @@ html {
   }
 
   #firstpage .mainbox .box2 {
-            width: 63vw;
-        margin-left: -177px;
-        padding: 0px;
-        /* height: 355px; */
-        margin-top: -81px;
+    width: 63vw;
+    margin-left: -177px;
+    padding: 0px;
+    /* height: 355px; */
+    margin-top: -81px;
   }
 
   #firstpage .mainbox .box2 .butt1 {
@@ -1003,12 +981,11 @@ html {
 
   /* ================================ Second page ===================================== */
 
-
   #secondpage .page2 .page2con {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-   width: 100vw;
+    width: 100vw;
     grid-template-columns: auto auto;
     height: 100vh;
     overflow: scroll;
@@ -1043,8 +1020,7 @@ html {
     display: none;
   }
 
-/* ================================ Third page ===================================== */
-
+  /* ================================ Third page ===================================== */
 
   #thirdpage {
     width: 100%;
@@ -1094,9 +1070,8 @@ html {
   #thirdpage .thirdcon2 {
     border: 1px solid transparent;
 
-        height: 75vh;
-        padding: 0px;
-      
+    height: 75vh;
+    padding: 0px;
   }
 
   #thirdpage .thirdcon1 .textbox .plusicon {
@@ -1113,15 +1088,14 @@ html {
   }
 
   #thirdpage .thirdcon2 img {
-            height: 311px;
-        border-radius: 60px;
-        margin-left: -172px;
-        width: 242px;
-        margin-top: 334px;
+    height: 311px;
+    border-radius: 60px;
+    margin-left: -172px;
+    width: 242px;
+    margin-top: 334px;
   }
 
   /* ================================ Fourth page ===================================== */
-
 
   #fourthpage {
     width: 100%;
@@ -1157,12 +1131,11 @@ html {
   }
 
   #fourthpage .fourthcon .coursebar {
-   
     width: 315px;
     height: 74px;
-    
+
     flex-wrap: wrap wrap;
-  
+
     margin-top: 3px;
   }
 
@@ -1193,7 +1166,6 @@ html {
   #fourthpage .fourthcon .coursegrid .imgbox {
     height: 251px;
     width: 275px;
-    
   }
 
   #fourthpage .fourthcon .coursegrid .imgbox:hover h3 {
@@ -1234,7 +1206,6 @@ html {
   }
 
   #fourthpage .fourthcon .coursegrid .imgbox .imgtext {
-  
     height: auto;
     padding-top: 20px;
     display: flex;
@@ -1254,7 +1225,6 @@ html {
   }
 
   /* ================================ Fiveth page ===================================== */
-
 
   #fivethpage {
     width: 100%;
@@ -1301,14 +1271,10 @@ html {
     height: 100px;
   }
 
-/* ================================ Sixth page ===================================== */
-
-
+  /* ================================ Sixth page ===================================== */
 
   #sixthpage .sixmain {
-       
-        left: 117px;
-     
+    left: 117px;
   }
 
   #sixthpage .sixmain .sixcon1 {
@@ -1338,14 +1304,13 @@ html {
   }
 
   #sixthpage .sixmain .sixcon2 {
-           
-        width: 380px;
-        height: 302px;
-      
-        left: -134px;
-        
-        border-radius: 0px 130px 130px 0px;
-        top: 620px;
+    width: 380px;
+    height: 302px;
+
+    left: -134px;
+
+    border-radius: 0px 130px 130px 0px;
+    top: 620px;
   }
 
   #sixthpage .sixmain .sixcon2 p {
@@ -1387,111 +1352,77 @@ html {
     gap: 20px;
   }
 
-
-
-
-/* ================================ Seventh page ===================================== */
-
-
-
-
+  /* ================================ Seventh page ===================================== */
 
   #seventhpage {
-          width: 100%;
-                      height: 200vh;
-        position: relative;
-}
+    width: 100%;
+    height: 200vh;
+    position: relative;
+  }
 
-#seventhpage .sevenmain1 {
-          
-               top: 260px;
-        width: 60%;
-        height: 70vh;
-}
+  #seventhpage .sevenmain1 {
+    top: 260px;
+    width: 60%;
+    height: 70vh;
+  }
 
-#seventhpage .sevenmain1 .maincon {
-  margin-left: 30px;
-        gap: 64px;
-}
+  #seventhpage .sevenmain1 .maincon {
+    margin-left: 30px;
+    gap: 64px;
+  }
 
-#seventhpage .sevenmain1 .maincon div {
- 
-  font-size: 11px;
-  
-}
+  #seventhpage .sevenmain1 .maincon div {
+    font-size: 11px;
+  }
 
-#seventhpage .sevenmain1 .maincon h1 {
-  font-size: 21px;
+  #seventhpage .sevenmain1 .maincon h1 {
+    font-size: 21px;
+  }
 
-}
+  #seventhpage .sevenmain1 .maincon p {
+    font-size: 11px;
+    line-height: 1.4;
+  }
 
-#seventhpage .sevenmain1 .maincon p {
+  #seventhpage .contactform {
+    padding: 43px;
 
-  font-size: 11px;
-  line-height: 1.4;
-}
+    width: 369px;
+    top: 898px;
+    left: 20px;
+    height: 440px;
+  }
 
-#seventhpage .contactform {
-         padding: 43px;
-        
-        width: 369px;
-        top: 898px;
-        left: 20px;
-        height: 440px;
-         
-}
+  #seventhpage .contactform .formcontainer .input input[type="text"],
+  .input input[type="email"],
+  .input textarea {
+    font-size: 12px;
+  }
 
+  #seventhpage .contactform .formcontainer button {
+    cursor: pointer;
+    width: 177px;
+    font-size: 12px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
 
-#seventhpage .contactform .formcontainer .input input[type="text"],
-.input input[type="email"],
-.input textarea {
- 
-  font-size: 12px;
-  
-}
+  /* ================================ Footer page ===================================== */
 
+  #footerpage {
+    position: relative;
+  }
 
-#seventhpage .contactform .formcontainer button {
+  #footerpage .foot {
+    width: 100%;
+    height: 150px;
 
-        cursor: pointer;
-        width: 177px;
-        font-size: 12px;
-        transition: background-color 0.3s ease, color 0.3s ease;
-}
+    margin-top: 75px;
+    position: absolute;
+    top: 0px;
+  }
 
-
-
-
-
-
-/* ================================ Footer page ===================================== */
-
-
-
-#footerpage{
-  position: relative;
-}
-
-
-#footerpage .foot{
-          width: 100%;
-        height: 150px;
-        
-        margin-top: 75px;
-        position: absolute;
-        top: 0px;
-}
-
-#footerpage .foot p{
-  color: white;
-  width: 70%;
-   
-}
-
-
-
-
-
-
-
+  #footerpage .foot p {
+    color: white;
+    width: 70%;
+  }
 }
