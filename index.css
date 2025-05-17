@@ -1340,11 +1340,11 @@ html {
 
 
   #sixthpage .sixmain {
-    position: absolute;
-    top: 93px;
-    left: 104px;
-    width: 70%;
-    height: 85vh;
+            /* position: absolute; */
+        /* top: 93px; */
+        left: 130px;
+        /* width: 70%; */
+        /* height: 85vh; */
   }
 
   #sixthpage .sixmain .sixcon1 {
@@ -1378,7 +1378,7 @@ html {
         width: 380px;
         height: 302px;
         /* background-color: #7a6ad8; */
-        left: -127px;
+        left: -134px;
         /* display: flex
 ; */
         /* justify-content: center; */
