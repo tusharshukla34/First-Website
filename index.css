@@ -1427,9 +1427,10 @@ html {
 
 
   #seventhpage {
-  width: 100%;
-  height: 100vh;
-  position: relative;
+          width: 100%;
+        height: 150vh;
+        position: relative;
+        background-color: aquamarine;
 }
 
 #seventhpage .sevenmain1 {
@@ -1450,7 +1451,7 @@ html {
 }
 
 #seventhpage .sevenmain1 .maincon {
-  margin-left: 40px;
+  margin-left: 30px;
         /* display: flex
 ; */
         /* width: auto; */
@@ -1480,14 +1481,14 @@ html {
 }
 
 #seventhpage .contactform {
-  padding: 43px;
-  border-radius: 20px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  width: 480px;
-  top: 140px;
-  left: 666px;
-  height: 490px;
-  background-image: url(./images/firstpageback.jpg);
+         padding: 43px;
+        /* border-radius: 20px; */
+        /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); */
+        width: 369px;
+        top: 898px;
+        left: 0px;
+        height: 440px;
+         /* background-image: url(./images/firstpageback.jpg); */
 }
 
 #seventhpage .contactform .formcontainer {
@@ -1525,24 +1526,20 @@ html {
 }
 
 #seventhpage .contactform .formcontainer button {
-  background-color: white;
-  color: #8e7cc3;
-  padding: 15px 30px;
-  border: none;
-  border-radius: 30px;
-  font-size: 18px;
-  cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: white; */
+        /* color: #8e7cc3; */
+        /* padding: 15px 53px; */
+        /* border: none; */
+        /* border-radius: 30px; */
+        font-size: 12px;
+        cursor: pointer;
+        width: 174px;
+        transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 #seventhpage .contactform .formcontainer button:hover {
   background-color: #8e7cc3;
   color: white;
-}
-
-#seventhpage .contactform {
-  position: relative;
-  overflow: hidden;
 }
 
 }
