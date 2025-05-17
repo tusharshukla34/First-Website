@@ -1342,7 +1342,7 @@ html {
   #sixthpage .sixmain {
             /* position: absolute; */
         /* top: 93px; */
-        left: 129px;
+        left: 128px;
         /* width: 70%; */
         /* height: 85vh; */
   }
@@ -1553,9 +1553,7 @@ html {
 #footerpage .foot p{
   color: white;
   width: 70%;
-   display: flex; 
-        justify-content: center;
-        align-items: center;
+   
 }
 
 
