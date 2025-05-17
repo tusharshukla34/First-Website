@@ -1094,16 +1094,18 @@ html {
   }
 
   #thirdpage .thirdcon2 {
-    border: 1px solid transparent;
-    width: 80%;
-    max-width: 700px;
-    height: 80vh;
-    padding: 85px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 35px;
-    text-align: center;
+    border: 1px solid transparent; */
+        /* width: 8%; */
+        /* max-width: 690px; */
+        height: 75vh;
+        padding: 0px;
+        /* display: flex
+; */
+        /* justify-content: center; */
+        /* flex-direction: column; */
+        /* gap: 35px; */
+        /* text-align: center; */
+        /* background-color: black;
 
     /* #f1f0fe */
   }
