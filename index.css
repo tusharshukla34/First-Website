@@ -1450,14 +1450,15 @@ html {
 }
 
 #seventhpage .sevenmain1 .maincon {
-  margin-left: 70px;
-  display: flex;
-  width: auto;
-  height: auto;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-  gap: 90px;
+  margin-left: 40px;
+        /* display: flex
+; */
+        /* width: auto; */
+        /* height: auto; */
+        /* justify-content: center; */
+        /* align-items: flex-start; */
+        /* flex-direction: column; */
+        gap: 64px;
 }
 
 #seventhpage .sevenmain1 .maincon div {
