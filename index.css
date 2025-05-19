@@ -1,16 +1,12 @@
 * {
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
+  box-sizing: border-box; 
+  scroll-behavior: smooth;
 }
 
 body {
   overflow-x: hidden;
-}
-
-html {
-  scroll-behavior: smooth;
-  /* overflow: hidden; */
 }
 
 /* ===================== Navbar style start from here ===================== */
@@ -863,6 +859,8 @@ html {
   #bars i {
     font-size: 24px;
     color: white;
+    left: -29px;
+        position: absolute;
   }
 
   #navbar {
