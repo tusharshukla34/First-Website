@@ -989,6 +989,7 @@ body {
     overflow: scroll;
     scroll-behavior: smooth;
     height: 60vh;
+    scrollbar-width: none;
   }
 
   #secondpage .page2 .pagebox {
