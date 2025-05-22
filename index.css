@@ -1031,8 +1031,9 @@ background-repeat: no-repeat;
   }
 
   #firstpage .mainbox {
-    width: 100vw;
-    margin-top: -31px;
+            width: 88vw;
+        height: 70vh;
+        margin-top: -31px;
   }
 
   #firstpage .mainbox .box2 {
