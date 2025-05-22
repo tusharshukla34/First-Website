@@ -1,7 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
+  box-sizing: border-box; 
   scroll-behavior: smooth;
 }
 
@@ -134,29 +134,67 @@ body {
   height: auto;
   width: auto;
   flex-wrap: wrap;
+   /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+animation: changepic 4s ease infinite;
+background-repeat: no-repeat;
+}
+
+@keyframes changepic {
+    0% {
+        background-image: url('./images/banner1.jpg');
+        border-radius: 40px 40px;
+    }
+    33.33% {
+        background-image: url('./images/banner1.jpg');
+        border-radius: 40px 40px;
+    }
+    33.34% {
+        background-image: url('./images/banner2.jpg');
+        border-radius: 40px 40px;
+    }
+    66.66% {
+        background-image: url('./images/banner2.jpg');
+        border-radius: 40px 40px;
+    }
+    66.67% {
+        background-image: url('./images/banner3.jpg');
+        border-radius: 40px 40px;
+    }
+    100% {
+        background-image: url('./images/banner3.jpg'); 
+        border-radius: 40px 40px;
+    }
 }
 
 #firstpage .mainbox .box2 {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-  position: absolute;
-  color: white;
-  left: 260px;
-  height: 560px;
-  width: 560px;
-  gap: 40px;
-  padding-left: 50px;
+  display: flex
+;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    color: white;
+    left: 260px;
+    height: 543px;
+    width: 560px;
+    gap: 28px;
+    padding-left: 27px;
+    top: 220px;
 }
 
-#firstpage img {
+#firstpage .imgcon {
   padding-left: 0px;
   height: 795px;
   width: 935px;
   border-radius: 42px;
   margin-left: 180px;
+
+ 
+
 }
+
+
+
 
 #firstpage .mainbox .box2 .butt1 {
   border: 1px solid transparent;
@@ -165,6 +203,7 @@ body {
   background-color: #7b6ada;
   color: white;
   text-transform: uppercase;
+  cursor: pointer;
 }
 #firstpage .mainbox .box2 h1 {
   font-size: 60px;
@@ -187,6 +226,7 @@ body {
   border-radius: 25px;
   padding: 13px 22px;
   color: #2d11c7;
+  cursor: pointer;
 }
 #firstpage .mainbox .box2 .box3 i {
   border: 1px solid transparent;
@@ -275,7 +315,31 @@ body {
   line-height: 248px;
   left: 263px;
   top: 1244px;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: roll 2.5s ease-out infinite forwards;
+    
 }
+
+
+
+@keyframes roll {
+    0% {
+        
+        transform: translateX(1200px) rotate(0deg); 
+        opacity: 0; 
+    }
+    10% {
+        
+        opacity: 1;
+    }
+    100% {
+       
+        transform: translateX(0) rotate(720deg); 
+        opacity: 1; 
+    }
+}
+
+
 #secondpage .page2 .circle2 {
   border: 1px solid transparent;
   border-radius: 50%;
@@ -288,7 +352,28 @@ body {
   line-height: 248px;
   left: 643px;
   top: 1244px;
+  animation: roll 2.5s ease-out forwards;
 }
+
+
+@keyframes roll {
+    0% {
+        
+        transform: translateX(1200px) rotate(0deg); 
+        opacity: 0; 
+    }
+    10% {
+        
+        opacity: 1;
+    }
+    100% {
+       
+        transform: translateX(0) rotate(720deg); 
+        opacity: 1; 
+    }
+}
+
+
 #secondpage .page2 .circle3 {
   border: 1px solid transparent;
   border-radius: 50%;
@@ -301,7 +386,27 @@ body {
   line-height: 248px;
   left: 1015px;
   top: 1244px;
+  animation: roll 2.5s ease-out forwards;
 }
+
+
+@keyframes roll {
+    0% {
+        
+        transform: translateX(1200px) rotate(0deg); 
+        opacity: 0; 
+    }
+    10% {
+        
+        opacity: 1;
+    }
+    100% {
+       
+        transform: translateX(0) rotate(720deg); 
+        opacity: 1; 
+    }
+}
+
 
 #secondpage .page2 .pagebox button:hover {
   transform: scale(1.06);
@@ -860,7 +965,7 @@ body {
     font-size: 24px;
     color: white;
     left: -29px;
-    position: absolute;
+        position: absolute;
   }
 
   #navbar {
@@ -1087,11 +1192,11 @@ body {
   }
 
   #thirdpage .thirdcon2 img {
-    height: 311px;
-    border-radius: 60px;
-    margin-left: -218px;
-    width: 242px;
-    margin-top: 417px;
+   height: 311px;
+        border-radius: 60px;
+        margin-left: -218px;
+        width: 242px;
+        margin-top: 417px;
   }
 
   /* ================================ Fourth page ===================================== */
