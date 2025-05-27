@@ -308,22 +308,6 @@ body {
   line-height: 248px;
   left: 263px;
   top: 1244px;
-  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
-  animation: roll 2.5s ease-out infinite forwards;
-}
-
-@keyframes roll {
-  0% {
-    transform: translateX(1200px) rotate(0deg);
-    opacity: 0;
-  }
-  10% {
-    opacity: 1;
-  }
-  100% {
-    transform: translateX(0) rotate(720deg);
-    opacity: 1;
-  }
 }
 
 #secondpage .page2 .circle2 {
@@ -338,22 +322,9 @@ body {
   line-height: 248px;
   left: 643px;
   top: 1244px;
-  animation: roll 2.5s ease-out forwards;
 }
 
-@keyframes roll {
-  0% {
-    transform: translateX(1200px) rotate(0deg);
-    opacity: 0;
-  }
-  10% {
-    opacity: 1;
-  }
-  100% {
-    transform: translateX(0) rotate(720deg);
-    opacity: 1;
-  }
-}
+
 
 #secondpage .page2 .circle3 {
   border: 1px solid transparent;
@@ -367,22 +338,8 @@ body {
   line-height: 248px;
   left: 1015px;
   top: 1244px;
-  animation: roll 2.5s ease-out forwards;
 }
 
-@keyframes roll {
-  0% {
-    transform: translateX(1200px) rotate(0deg);
-    opacity: 0;
-  }
-  10% {
-    opacity: 1;
-  }
-  100% {
-    transform: translateX(0) rotate(720deg);
-    opacity: 1;
-  }
-}
 
 #secondpage .page2 .pagebox button:hover {
   transform: scale(1.06);
