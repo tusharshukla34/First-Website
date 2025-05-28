@@ -324,8 +324,6 @@ body {
   top: 1244px;
 }
 
-
-
 #secondpage .page2 .circle3 {
   border: 1px solid transparent;
   border-radius: 50%;
@@ -339,7 +337,6 @@ body {
   left: 1015px;
   top: 1244px;
 }
-
 
 #secondpage .page2 .pagebox button:hover {
   transform: scale(1.06);
