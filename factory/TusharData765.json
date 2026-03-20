@@ -1,0 +1,9 @@
+{
+	"name": "TusharData765",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "26170916-03e0-490d-93d3-d6ed7f2e3269",
+		"tenantId": "5a2f93ff-b6e5-4941-a972-ad3a5a6c3bfe"
+	}
+}
